@@ -9,7 +9,7 @@
     </ng-template>
 
     <div *ngFor="let product of products" class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img [src]="product.imageUrl" class="card-img-top" alt="{{product.description}}" style="width: 100%;height: 250px;">
 
         <div class="card-body">
 
