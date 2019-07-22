@@ -16,7 +16,6 @@ export class ProductComponent implements OnInit {
   filterText = "";
 
   products: Product[] = [
-    // products : Product[] =
     {
       id: 1,
       name: "Laptop",
